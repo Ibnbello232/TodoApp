@@ -1,7 +1,17 @@
+using Microsoft.EntityFrameworkCore;
+using TodoApp.Data;
+
+
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+
+builder.Services.AddDbContext<TodoContext>(options => 
+options.UseSqlServer(builder.Configuration.GetConnectionString("TodoTasks")));
+    
 
 var app = builder.Build();
 
@@ -25,3 +35,4 @@ app.MapControllerRoute(
     pattern: "{controller=Home}/{action=Index}/{id?}");
 
 app.Run();
+  
