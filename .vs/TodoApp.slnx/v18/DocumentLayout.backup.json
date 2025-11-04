@@ -118,9 +118,9 @@
               "Title": "TasksController.cs",
               "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\TodoApp\\TodoApp\\Controllers\\TasksController.cs",
               "RelativeDocumentMoniker": "TodoApp\\Controllers\\TasksController.cs",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\TodoApp\\TodoApp\\Controllers\\TasksController.cs*",
-              "RelativeToolTip": "TodoApp\\Controllers\\TasksController.cs*",
-              "ViewState": "AgIAAAkAAACA//9LcGEuwBsAAAAIAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\TodoApp\\TodoApp\\Controllers\\TasksController.cs",
+              "RelativeToolTip": "TodoApp\\Controllers\\TasksController.cs",
+              "ViewState": "AgIAAEYAAAAAcNtwZ+ESwFAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-03T14:26:20.56Z",
               "EditorCaption": ""
@@ -135,8 +135,7 @@
               "RelativeToolTip": "TodoApp\\Data\\TodoContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-02T22:04:30.087Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-02T22:04:30.087Z"
             },
             {
               "$type": "Document",
@@ -148,8 +147,7 @@
               "RelativeToolTip": "TodoApp\\Models\\AddTodosViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T16:48:33.337Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-03T16:48:33.337Z"
             },
             {
               "$type": "Document",
@@ -161,8 +159,7 @@
               "RelativeToolTip": "TodoApp\\Views\\Tasks\\List.cshtml",
               "ViewState": "AgIAAAAAAABu27ZtYxgkwBkAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-04T02:12:29.793Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-04T02:12:29.793Z"
             },
             {
               "$type": "Document",
@@ -174,8 +171,7 @@
               "RelativeToolTip": "TodoApp\\Views\\Todos\\Add.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-03T15:08:22.841Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-03T15:08:22.841Z"
             },
             {
               "$type": "Document",

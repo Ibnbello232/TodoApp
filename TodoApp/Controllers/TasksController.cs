@@ -40,27 +40,9 @@ namespace TodoApp.Controllers
 
             return View();
         }
+        
         [HttpGet]
-        public async Task<IActionResult> List()
-        {
-            var todos = await dbContext.Todos.ToListAsync();
-            return View(todos);
-        }
-
-
-        [HttpPost]
-        public async Task<IActionResult> Delete(int id)
-        {
-            var todo = await dbContext.Todos.FindAsync(id);
-            if (todo != null)
-            {
-                dbContext.Todos.Remove(todo);
-                await dbContext.SaveChangesAsync();
-            }
-            return RedirectToAction("List");
-        }
-        [HttpGet]
-        public async Task<IActionResult> Edit(int id)
+        public async Task<IActionResult> Edit(Guid id)
         {
             var todo = await dbContext.Todos.FindAsync(id);
             if (todo == null)
@@ -79,7 +61,25 @@ namespace TodoApp.Controllers
 
         }
 
+        [HttpPost]
+          public async Task<IActionResult> Edit(Todo viewModel)
+        {
+            var todo = await dbContext.Todos.FindAsync(viewModel.Id);
+            if (todo == null)
+            {
+                return NotFound();
+            }
+            todo.Title = viewModel.Title;
+            todo.Description = viewModel.Description;
+            todo.IsCompleted = viewModel.IsCompleted;
+            todo.CreatedAt = viewModel.CreatedAt;
+
+            await dbContext.SaveChangesAsync();
+            return RedirectToAction("List", "Todos");
+        }
+        
 
 
     }
+
 }
